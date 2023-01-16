@@ -1,3 +1,4 @@
+import 'package:car_share_app/pages/simple_map.dart';
 import 'package:flutter/material.dart';
 
 import 'auth/login_page.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/registration': (BuildContext context) => const RegistrationPage(),
         '/login': (BuildContext context) => const LoginPage(),
+        '/map': (BuildContext context) => const SimpleMap(),
       },
     );
   }

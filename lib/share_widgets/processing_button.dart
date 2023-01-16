@@ -40,13 +40,13 @@ class ProcessingButton extends StatelessWidget {
         child: ElevatedButton(
           onPressed: onPressed,
           style: ElevatedButton.styleFrom(
-            backgroundColor: getPrimary(
-              buttonType,
-              context,
-            ), //change background color of button
-            foregroundColor: Theme.of(context)
-                .colorScheme
-                .onPrimary, //change text color of button
+            // backgroundColor: getPrimary(
+            //   buttonType,
+            //   context,
+            // ), //change background color of button
+            // foregroundColor: Theme.of(context)
+            //     .colorScheme
+            //     .onPrimary, //change text color of button
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(25),
             ),

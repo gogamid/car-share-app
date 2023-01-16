@@ -55,7 +55,7 @@ class LoginPage extends StatelessWidget {
                 text: 'Login',
                 state: null,
                 onPressed: () {
-                  // Navigator.pushNamed(context, '/dashboard');
+                  Navigator.pushNamed(context, '/map');
                 }),
             const SizedBox(
               height: AppDimensions.mainSpace,
